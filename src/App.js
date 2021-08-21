@@ -16,6 +16,7 @@ const App = () => {
 
   const setContacts = (contacts) => {
     setState({
+      ...state,
       contacts
     });
     saveContacts(contacts)
